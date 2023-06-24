@@ -165,18 +165,18 @@ const Home = () => {
       <Left className="display-left">
         <Line>
           <Image>
-            <img src="images/cake.jpg" alt="" />
+            <img src="images/cake2.jpg" alt="" />
           </Image>
           <Image>
             <img src="images/cake1.jpg" alt="" />
           </Image>
           <Image>
-            <img src="images/cake2.jpg" alt="" />
+            <img src="images/cake3.jpg" alt="" />
           </Image>
         </Line>
         <Main>
           <Image>
-            <img src="images/cake3.jpg" alt="" />
+            <img src="images/cake.jpg" alt="" />
           </Image>
         </Main>
       </Left>

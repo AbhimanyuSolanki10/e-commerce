@@ -5,9 +5,10 @@ import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Head = style.nav`
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 `;
 
 const NavbarTop = style.div`
@@ -65,11 +66,13 @@ const Fav = style.div`
 const NavbarBottom = style.div`
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     justify-content: left;
     select{
         border-radius: 25px;
         padding: 5px;
+        width: 120px;
+        text-align: center;
     }
 `;
 
